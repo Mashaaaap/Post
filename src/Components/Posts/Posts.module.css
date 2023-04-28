@@ -1,3 +1,9 @@
+.form{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
 .input {
     width: 150px;
     margin: 10px;
@@ -8,11 +14,15 @@
     background-color: rgba(245, 222, 179, 0.413);
 }
 
+.input:nth-last-child(2){
+    width: 380px;
+    height: 150px;
+}
+
 .btn {
     background-color: rgb(74, 113, 100);
     border-radius: 15px;
     color: wheat;
-    margin: 0 auto;
     border: none;
     height: 30px;
     width: 100px;

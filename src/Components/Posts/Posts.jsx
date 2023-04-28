@@ -23,7 +23,7 @@ const Posts = (props) => {
             {PostElements}
             <div className={s.form}>
                 <input ref={inputRef} className={s.input} type="text" placeholder="Write new title"/>
-                <input ref={inputRef2} className={s.input} type="text" placeholder="Write new text"/>
+                <textarea ref={inputRef2} className={s.input} name="" id="" cols="30" rows="10" placeholder="Write new text"></textarea>
                 <button onClick={createNewPost} className={s.btn}>Create</button>
             </div>
         </>
