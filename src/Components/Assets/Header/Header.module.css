@@ -1,0 +1,13 @@
+.header{ 
+    width: 100%;
+    display: flex;
+    padding: 10px 15px;
+    text-align: left;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(74, 113, 100);
+}
+.text{ 
+    font-weight: 600;
+    color: wheat;
+}
